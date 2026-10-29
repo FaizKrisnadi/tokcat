@@ -33,6 +33,7 @@ public enum UsageGraph {
         ("codex", CodexParser.parse),
         ("cursor", CursorParser.parse),
         ("opencode", OpenCodeParser.parse),
+        ("zcode", ZCodeParser.parse),
         ("gemini", GeminiParser.parse),
         ("copilot", CopilotParser.parse),
         ("amp", AmpParser.parse),
